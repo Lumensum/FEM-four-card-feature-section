@@ -33,13 +33,13 @@ body {
 }
 
 header {
-  margin: 16px;
+  margin: 1.0667rem; /* 16px */
   text-align: center;
   color: var(--clr-darkblue);
-  font-size: 24px;
-  width: 311px;
-  margin-bottom: 76px;
-  margin-top: 76px;
+  font-size: 1.6rem; /* 24px */
+  width: 20.7333rem; /* 311px */
+  margin-bottom: 5.0667rem; /* 76px */
+  margin-top: 5.0667rem; /* 76px */
 }
 
 .header__toptitle {
@@ -50,12 +50,12 @@ header {
 .header__title {
   font-weight: 600;
   font-size: inherit;
-  margin-bottom: 16px;
+  margin-bottom: 1.0667rem; /* 16px */
 }
 
 .header__description {
   font-weight: 400;
-  font-size: 15px;
+  font-size: 1rem; /* 15px */
   color: var(--clr-grayblue);
 }
 
@@ -64,34 +64,34 @@ main {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  margin-bottom: 54px;
+  margin-bottom: 3.6rem; /* 54px */
 }
 
 .card {
-  height: 222px;
-  width: 311px;
-  box-shadow: 0px 4px 4px hsla(0, 0%, 0%, 0.25);
-  box-shadow: 0px 6px 16px hsla(0, 0%, 0%, 0.2);
-  border-radius: 8px;
-  border-top: 3.55px solid;
-  padding: 28px;
-  margin-bottom: 24px;
+  height: 14.8rem; /* 222px */
+  width: 20.7333rem; /* 311px */
+  box-shadow: 0rem 0.2667rem 0.2667rem /* 0px 4px 4px */ hsla(0, 0%, 0%, 0.25);
+  box-shadow: 0rem 0.4rem 1.0667rem /* 0px 6px 16px */ hsla(0, 0%, 0%, 0.2);
+  border-radius: 0.5333rem; /* 8px */
+  border-top: 0.2367rem /* 3.55px */ solid;
+  padding: 1.8667rem; /* 28px */
+  margin-bottom: 1.6rem; /* 24px */
   background-repeat: no-repeat;
-  background-position: right 28px bottom 28px;
+  background-position: right 1.8667rem bottom 1.8667rem; /* 28px 28px */
   background-color: #ffffff;
-  background-size: 57px;
+  background-size: 3.8rem; /* 57px */
 }
 
 .card__header {
   color: var(--clr-darkblue);
   font-weight: 600;
-  font-size: 20px;
+  font-size: 1.3333rem; /* 20px */
 }
 
 .card__description {
   color: var(--clr-grayblue);
   font-weight: 400;
-  font-size: 13px;
+  font-size: 0.8667rem; /* 13px */
   line-height: 2;
 }
 
@@ -115,21 +115,21 @@ main {
   background-image: url("./images/icon-calculator.svg");
 }
 
-@media only screen and (min-width: 1125px) {
+@media only screen and (min-width: 75rem /* 1125px */) {
   header {
-    font-size: 36px;
-    width: 540px;
+    font-size: 2.4rem; /* 36px */
+    width: 36rem; /* 540px */
   }
 
   main {
-    width: 1110px;
+    width: 74rem; /* 1110px */
     flex-direction: row;
     justify-content: space-between;
   }
 
   .card {
-    width: 350px;
-    height: 250px;
-    background-size: 64px;
+    width: 23.3333rem; /* 350px */
+    height: 16.6667rem; /* 250px */
+    background-size: 4.2667rem; /* 64px */
   }
 }
