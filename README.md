@@ -27,7 +27,7 @@ Users should be able to:
 
 ![](./screenshot2.png)
 
-## Destktop
+## Desktop
 
 ![](./screenshot.png)
 
