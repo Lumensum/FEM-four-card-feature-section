@@ -70,8 +70,8 @@ main {
 .card {
   height: 14.8rem; /* 222px */
   width: 20.7333rem; /* 311px */
-  box-shadow: 0rem 0.2667rem 0.2667rem /* 0px 4px 4px */ hsla(0, 0%, 0%, 0.25);
-  box-shadow: 0rem 0.4rem 1.0667rem /* 0px 6px 16px */ hsla(0, 0%, 0%, 0.2);
+  box-shadow: 0px 15px 30px -11px rgba(131, 166, 210, 0.5);
+  filter: drop-shadow(0px 4px 4px rgba(131, 166, 210, 0.25));
   border-radius: 0.5333rem; /* 8px */
   border-top: 0.2367rem /* 3.55px */ solid;
   padding: 1.8667rem; /* 28px */
